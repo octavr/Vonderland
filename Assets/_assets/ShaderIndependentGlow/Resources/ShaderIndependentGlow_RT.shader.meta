@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 48916ad6c1005aa4c8bb92928f7416a0
+timeCreated: 1464619758
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _SIG_GlowMask: {fileID: 2800000, guid: bd0f8bbe102db5242a4c223723ec624c, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

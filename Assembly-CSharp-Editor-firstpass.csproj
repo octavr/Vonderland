@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{8C38478D-7097-457B-58A8-8C82378D5CED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT;USES_STEAM_VR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
+     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\PlanarReflectionEditor.cs" />
+     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
+     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
+     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Bloom\Editor\BloomEditor.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Bloom\Editor\BloomGraphDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Common\Editor\EditorGUIHelper.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Common\Editor\FieldFinder.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Common\Editor\MinDrawer.cs" />
+     <Compile Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Editor\TonemappingColorGradingEditor.cs" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Translucents\Plant\Palnt.shader" />
+     <None Include="Assets\_assets\HTC.UnityPlugin\StereoRendering\Shader\ScreenSpaceShadows-ForCustomPerspectiveMat.shader" />
+     <None Include="Assets\_assets\MagicMirror\Prefab\MirrorShaderOld.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\GlowAdditive.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_TriplanarSelective_2Layers.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_2Sided_2Layers.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_TriplanarSelective_Refraction.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_TriplanarSelective_2Layers_Refraction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Fur Demo\Fur PBR.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Matrix\Additive.shader" />
+     <None Include="Assets\_assets\HTC.UnityPlugin\StereoRendering\Shader\StereoRenderShader_5_3.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Metal\Metal.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Mobile\Distortion\DistortionCullOff.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\LeapMotion\Core\Resources\LeapCG.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_TriplanarSelective_2Layers.shader" />
+     <None Include="Assets\_assets\UBER\_Examples\_UI elements\SkyboxButton.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\ParticleAdd.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_TriplanarSelective.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\ParticleAddNoSmooth.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_fallback2POMAdvanced.shader" />
+     <None Include="Assets\LeapMotion\Core\README_BEFORE_UPDATING.txt" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
+     <None Include="Assets\_assets\UBER\Documentation.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_2Layers.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Mobile\Water.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Simple(no_normalmap).shader" />
+     <None Include="Assets\_assets\MagicMirror\Prefab\MirrorShaderBumpMap.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_POMDistanceMap.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullBack.shader" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_TriplanarSelective_2Layers.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_2Sided_TriplanarSelective_2Layers.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Particles.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Simple(no_normalmap).shader" />
+     <None Include="Assets\_assets\UBER\Shaders\__UserCustomizedShaders\_info.txt" />
+     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+     <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\Includes\UBER_StandardInput.cginc" />
+     <None Include="Assets\_assets\UBER\Models\_model_praparation_info.txt" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\Includes\UBER_StandardShadow_Tessellation.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Refraction\Sample logo\Sample logo.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_GeomBlend.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Refraction\Glass\Glass.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_POMAdvanced.shader" />
+     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Water.shader" />
+     <None Include="Assets\_assets\UBER\OpenFootage\_info.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_TriplanarSelective_2Layers_Refraction.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Multiply-pass\Outline\Outline.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Readme.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_TriplanarSelective.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+     <None Include="Assets\_assets\ShaderIndependentGlow\Resources\ShaderIndependentGlow.shader" />
+     <None Include="Assets\_assets\UBER\_IMPORTANT_INFO.txt" />
+     <None Include="Assets\LeapMotion\Core\readme.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\Deferred_Lighting\UBER_with_Alloy.txt" />
+     <None Include="Assets\_assets\HTC.UnityPlugin\StereoRendering\Shader\StereoRenderShader.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_POMExtrusionMap.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Reflection Probes + Light\Reflection Probes + Light .shader" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_Refraction.shader" />
+     <None Include="Assets\LeapMotion\Core\Resources\RuntimeGizmos.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_2Sided_TriplanarSelective_2Layers.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_GeomBlend.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_2Sided.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_TriplanarSelective_2Layers_GeomBlend.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Distortion\DistortionParticlesCutout.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_POMAdvanced_Refraction.shader" />
+     <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Matrix\GlowAdditive.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_2Sided_TriplanarSelective.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_POMExtrusionMap.shader" />
+     <None Include="Assets\_assets\Pocket Portal VR\Materials\PortalShader.shader" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\_assets\UBER\Textures\_texture_import_info.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_TriplanarSelective_Refraction.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\Includes\UBER_StandardUtils2.cginc" />
+     <None Include="Assets\_assets\ShaderIndependentGlow\Resources\ShaderIndependentGlow_ortho.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Rim.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\HistogramRender.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_fallback2POMAdvanced.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_2Sided_TriplanarSelective.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_TriplanarSelective.shader" />
+     <None Include="Assets\_assets\HTC.UnityPlugin\StereoRendering\readme.txt" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\AlphaBlendedNoSmooth.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_2Sided.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Refraction_Simple(no_normalmap).shader" />
+     <None Include="Assets\LeapMotion\Core\Dependencies.txt" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Earth Day-Night\Earth Day-Night.shader" />
+     <None Include="Assets\_assets\ShaderIndependentGlow\Resources\ShaderIndependentGlow_RT.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCutOut.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\Includes\UBER_AutoLightMOD.cginc" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\GlowAdditiveTwoColor.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Explosion.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_fallback2POMAdvanced_Refraction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_TriplanarSelective_2Layers_GeomBlend.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullOff.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+     <None Include="Assets\LeapMotion\Core\Resources\ThresholdOverlay.shader" />
+     <None Include="Assets\_assets\MagicMirror\Prefab\Readme.txt" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Post-effects\Texture overlay\Simple post effect.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Bloom\Resources\Bloom.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_2Sided.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Mobile\Distortion\DistortionParticlesCutout.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\DiffuseRim.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Distortion\DistortionCullOff.shader" />
+     <None Include="Assets\_assets\ShaderIndependentGlow\Demo\MovementAnimsetProLite\readme.txt" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_2Layers_GeomBlend.shader" />
+     <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Refraction.shader" />
+     <None Include="Assets\LeapMotion\Core\Resources\PassthroughForeground.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_2Layers_Refraction.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\_assets\UBER\_UBER_deferred_info.txt" />
+     <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_2Layers.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\Includes\UBER_StandardCore.cginc" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_2Layers.shader" />
+     <None Include="Assets\_assets\Pocket Portal VR\README.txt" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Distortion\DistortionCullBack.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\LeapMotion\Core\Resources\PassthroughBackground.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_Refraction.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Very simple metalic + BRDF + Rim\Very simple metalic.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\UBER_ForwardFogType.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_2Layers.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_TriplanarSelective_2Layers_Refraction.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_2Sided.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_2Sided_2Layers.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_TriplanarSelective.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\DirectX 11\uSE logo\Vertex animation.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_TriplanarSelective_GeomBlend.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_POMAdvanced_Refraction.shader" />
+     <None Include="Assets\_assets\UBER\Editor\BakeProps.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_POMDistanceMap.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_2Layers_GeomBlend.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\PBS Metallic Base\PBS Metallic Base.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\Deferred_Lighting\Internal-DeferredShading_UBER.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_2Layers_Refraction.shader" />
+     <None Include="Assets\_assets\UBER\Textures\[Modular]\copyright_info.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_2Sided_TriplanarSelective.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\DirectX 11\Ground\Ground.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\Includes\UBER_UnityDeferredLibrary.cginc" />
+     <None Include="Assets\_assets\UBER\_Examples\Candle\Sources\Materials\CandleFire.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_POMAdvanced.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Refraction_Simple(no_normalmap).shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Parallax\Parallax.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\AlphaBlended.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Matrix\GlowAdditiveSimple.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_POMExtrusionMap_Refraction.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_TriplanarSelective_2Layers.shader" />
+     <None Include="Assets\_assets\ShaderIndependentGlow\Resources\ShaderIndependentGlow_RT_ortho.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\DirectX 11\Simple tessellation\Tessellation.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_POMDistanceMap_Refraction.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\_assets\UBER\_Examples\Hebe\source_info.txt.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_TriplanarSelective_2Layers_Refraction.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_fallback2POMAdvanced_Refraction.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Multiply-pass\Low poly demo\Multiply-pass.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Refraction.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\Bloom\Resources\Bloom.cginc" />
+     <None Include="Assets\LeapMotion\Core\Version.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\Resources\UBER_CopyPropsTexture.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_2Layers_Refraction.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_2Layers_Refraction.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\Mobile\Distortion\DistortionCullBack.shader" />
+     <None Include="Assets\_assets\MagicMirror\Prefab\MirrorShader.shader" />
+     <None Include="Assets\_assets\ShaderIndependentGlow\Resources\SIG_compose.shader" />
+     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\LeapMotion\Core\Resources\VertexOffsetShader.shader" />
+     <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_POMExtrusionMap_Refraction.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_2Sided_TriplanarSelective.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\DirectX 11\Terrain + Tessellation\Terrain Tessllate.shader" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\Ternar (if, else)\Ternar.shader" />
+     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_2Sided_2Layers.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_TriplanarSelective_GeomBlend.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\GlowAdditiveSimple.shader" />
+     <None Include="Assets\_assets\ShaderIndependentGlow\Resources\SIG_FastBlur.shader" />
+     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_2Sided_TriplanarSelective_2Layers.shader" />
+     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+     <None Include="Assets\_assets\uShader\Demos\Demo projects (usp + mateials)\DirectX 11\Tessellation+Reflection\Tesselation+Reflaction.shader" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_2Sided_TriplanarSelective_2Layers.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\Includes\DeferredTranslucensyBlit.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_Tessellation_TriplanarSelective_Refraction.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_Tessellation_TriplanarSelective_Refraction.shader" />
+     <None Include="Assets\_assets\UBER\Shaders\_Specular\_UBERShader_Specular_POMDistanceMap_Refraction.shader" />
+     <None Include="Assets\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Resources\HistogramCompute.compute" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+     <None Include="Assets\_assets\UBER\Shaders\_Metallic\_UBERShader_Metallic_2Sided_2Layers.shader" />
+     <None Include="Assets\_assets\Realistic Effects Pack\Shaders\WaterFree.shader" />
+     <None Include="Assets\_assets\UBER\_verinfo.txt" />
+     <None Include="Assets\_assets\UBER\Shaders\UBER_StandardConfig.cginc" />
+     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>C:/Users/octa/Documents/Unity/magicball/Assets/LeapMotion/Core/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
+ <Reference Include="SimpleMatrixLibrary">
+ <HintPath>C:/Users/octa/Documents/Unity/magicball/Assets/_assets/UBER/Editor/SimpleMatrixLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="uShader">
+ <HintPath>C:/Users/octa/Documents/Unity/magicball/Assets/_assets/uShader/Resources/Editor/uShader.dll</HintPath>
+ </Reference>
+ <Reference Include="uShaderPPTools">
+ <HintPath>C:/Users/octa/Documents/Unity/magicball/Assets/_assets/uShader/Resources/Scripts/uShaderPPTools.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{976BAF09-C543-6980-2DE8-8A9B118307FC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.csproj">
+      <Project>{0A650CB2-6B18-0550-86B1-B556D7EE6858}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

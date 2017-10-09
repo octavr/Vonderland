@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tessellation
+  m_Shader: {fileID: 4800000, guid: 7d2a74cd4dd18364782db5e5b9d7ecd6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DispMap:
+        m_Texture: {fileID: 2800000, guid: 1d7f6a0e5b678b345986d1545ecfa1aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 02c8c280bd7b3774d8f938425727b9d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: bfc16681b63aab14abc8d3d8078d096b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Displacement_: 0.15
+    - _TessMultiplier_: 24
+    m_Colors:
+    - _CosTime_: {r: 0.9761124, g: 0.9761097, b: 0.97610426, a: 0.9760934}
+    - _SinTime_: {r: 0.21726608, g: 0.21727829, b: 0.21730268, a: 0.21735148}
+    - _Time_: {r: 0.010999986, g: 0.22000027, b: 0.44000053, a: 0.6600006}

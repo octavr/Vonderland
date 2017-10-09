@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: 49a95e6ec7cc59147af9d6f7be5ac323
+timeCreated: 1437225222
+licenseType: Pro
+SubstanceImporter:
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: Skin
+    prototypeName: Skin
+    shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: _DETAIL_MULX2 _DETAIL_TEXTURED _NORMALMAP _PARALLAXMAP _SPECGLOSSMAP
+      _TRANSLUCENCY _WETNESS_NONE
+    renderQueue: -1
+    lightmapFlags: 5
+    inputs:
+    - name: $outputsize
+      value:
+        scalar[0]: 8
+        scalar[1]: 8
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $randomseed
+      value:
+        scalar[0]: 3788
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Normal_Intensity
+      value:
+        scalar[0]: .630999982
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Lighting_Intensity
+      value:
+        scalar[0]: .115999997
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Lighting_Angle
+      value:
+        scalar[0]: .591000021
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Hue_Shift
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Saturation
+      value:
+        scalar[0]: .5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Luminosity
+      value:
+        scalar[0]: .5
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Contrast
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Skin_Scale
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Warp
+      value:
+        scalar[0]: .588
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Roughness
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Veins
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Stains
+      value:
+        scalar[0]: .238999993
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Scars
+      value:
+        scalar[0]: .398999989
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Scars_Amount
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Scars_Scale
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Freckles
+      value:
+        scalar[0]: .156000003
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Freckles_Amount
+      value:
+        scalar[0]: .412
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Freckles_Scale
+      value:
+        scalar[0]: .657000005
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Naevus
+      value:
+        scalar[0]: .150999993
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Naevus_Amount
+      value:
+        scalar[0]: .0520000011
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Naevus_Scale
+      value:
+        scalar[0]: 1
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: Skin_Color
+      value:
+        scalar[0]: 1
+        scalar[1]: .797465503
+        scalar[2]: .617647052
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 0
+    materialProperties:
+      serializedVersion: 2
+      texEnvs:
+        data:
+          first:
+            name: _MainTex
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _BumpMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailNormalMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _ParallaxMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _OcclusionMap
+          second:
+            texture: {fileID: 2800000, guid: a311abd0f515a4f478cd3282e0ff4652, type: 3}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _EmissionMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailMask
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _DetailAlbedoMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 6.5999999, y: 4}
+            offset: {x: 0, y: 0}
+        data:
+          first:
+            name: _SpecGlossMap
+          second:
+            texture: {instanceID: 0}
+            scale: {x: 1, y: 1}
+            offset: {x: 0, y: 0}
+      floats:
+        data:
+          first:
+            name: _SrcBlend
+          second: 1
+        data:
+          first:
+            name: _DstBlend
+          second: 0
+        data:
+          first:
+            name: _Cutoff
+          second: .5
+        data:
+          first:
+            name: _Parallax
+          second: 0
+        data:
+          first:
+            name: _Glossiness
+          second: .5
+        data:
+          first:
+            name: _BumpScale
+          second: .0299999993
+        data:
+          first:
+            name: _OcclusionStrength
+          second: 1
+        data:
+          first:
+            name: _DetailNormalMapScale
+          second: .800000012
+        data:
+          first:
+            name: _UVSec
+          second: 0
+        data:
+          first:
+            name: _Mode
+          second: 0
+        data:
+          first:
+            name: _ZWrite
+          second: 1
+        data:
+          first:
+            name: _Metallic
+          second: 0
+        data:
+          first:
+            name: _EmissionScaleUI
+          second: 0
+        data:
+          first:
+            name: _ShadowCull
+          second: 2
+        data:
+          first:
+            name: _Glossiness2
+          second: .5
+        data:
+          first:
+            name: _BumpScale2
+          second: 1
+        data:
+          first:
+            name: _Parallax2
+          second: .0399999991
+        data:
+          first:
+            name: _OcclusionStrength2
+          second: 0
+        data:
+          first:
+            name: _SecOcclusionStrength
+          second: .800000012
+        data:
+          first:
+            name: _UVSecOcclusion
+          second: 0
+        data:
+          first:
+            name: _UVSecOcclusionLightmapPacked
+          second: 0
+        data:
+          first:
+            name: _DiffuseScatter
+          second: 1
+        data:
+          first:
+            name: _DiffuseScatteringExponent
+          second: 3
+        data:
+          first:
+            name: _DiffuseScatteringOffset
+          second: .300000012
+        data:
+          first:
+            name: _GlossMin
+          second: 0
+        data:
+          first:
+            name: _GlossMax
+          second: .180000007
+        data:
+          first:
+            name: _BendNormalsFreq
+          second: 4
+        data:
+          first:
+            name: _BendNormalsStrength
+          second: .0500000007
+        data:
+          first:
+            name: _DetailUVMult
+          second: 1
+        data:
+          first:
+            name: _DetailNormalLerp
+          second: 0
+        data:
+          first:
+            name: _DetailEmissiveness
+          second: 0
+        data:
+          first:
+            name: _DetailSpecLerp
+          second: 1
+        data:
+          first:
+            name: _DetailMetalness
+          second: 1
+        data:
+          first:
+            name: _DetailGloss
+          second: 1
+        data:
+          first:
+            name: _PanEmissionMask
+          second: 0
+        data:
+          first:
+            name: _PanUSpeed
+          second: 1
+        data:
+          first:
+            name: _PanVSpeed
+          second: 0
+        data:
+          first:
+            name: _PulsateEmission
+          second: 1
+        data:
+          first:
+            name: _EmissionPulsateSpeed
+          second: 1
+        data:
+          first:
+            name: _MinPulseBrightness
+          second: 0
+        data:
+          first:
+            name: _Translucency
+          second: 1
+        data:
+          first:
+            name: _TranslucencyShown
+          second: 1
+        data:
+          first:
+            name: _TranslucencyStrength
+          second: 5
+        data:
+          first:
+            name: _TranslucencyPointLightDirectionality
+          second: .699999988
+        data:
+          first:
+            name: _TranslucencyConstant
+          second: 0
+        data:
+          first:
+            name: _TranslucencyNormalOffset
+          second: .0799999982
+        data:
+          first:
+            name: _TranslucencyExponent
+          second: 24
+        data:
+          first:
+            name: _TranslucencyOcclusion
+          second: 1
+        data:
+          first:
+            name: _TranslucencySuppressRealtimeShadows
+          second: .699999988
+        data:
+          first:
+            name: _TranslucencyDeferredLightIndex
+          second: 0
+        data:
+          first:
+            name: _POM
+          second: 0
+        data:
+          first:
+            name: _POMShown
+          second: 1
+        data:
+          first:
+            name: _DepthWrite
+          second: 0
+        data:
+          first:
+            name: _Depth
+          second: .100000001
+        data:
+          first:
+            name: _DistSteps
+          second: 64
+        data:
+          first:
+            name: _ReliefMIPbias
+          second: 0
+        data:
+          first:
+            name: _POM_BottomCut
+          second: 0
+        data:
+          first:
+            name: _POM_MeshIsVolume
+          second: 0
+        data:
+          first:
+            name: _POM_ExtrudeVolume
+          second: 0
+        data:
+          first:
+            name: _POMPrecomputedFlag
+          second: 0
+        data:
+          first:
+            name: _POMCurvatureType
+          second: 0
+        data:
+          first:
+            name: _DepthReductionDistance
+          second: 20
+        data:
+          first:
+            name: _CurvatureCustomU
+          second: 0
+        data:
+          first:
+            name: _CurvatureCustomV
+          second: 0
+        data:
+          first:
+            name: _CurvatureMultU
+          second: 1
+        data:
+          first:
+            name: _CurvatureMultV
+          second: 1
+        data:
+          first:
+            name: _Tan2ObjCustomU
+          second: 1
+        data:
+          first:
+            name: _Tan2ObjCustomV
+          second: 1
+        data:
+          first:
+            name: _Tan2ObjMultU
+          second: 1
+        data:
+          first:
+            name: _Tan2ObjMultV
+          second: 1
+        data:
+          first:
+            name: _UV_Clip
+          second: 0
+        data:
+          first:
+            name: _POMShadows
+          second: 0
+        data:
+          first:
+            name: _ShadowStrength
+          second: 1
+        data:
+          first:
+            name: _DistStepsShadows
+          second: 64
+        data:
+          first:
+            name: _ShadowMIPbias
+          second: 0
+        data:
+          first:
+            name: _Softness
+          second: 2
+        data:
+          first:
+            name: _SoftnessFade
+          second: .400000006
+        data:
+          first:
+            name: _Refraction
+          second: .0199999996
+        data:
+          first:
+            name: _RefractionBumpScale
+          second: .5
+        data:
+          first:
+            name: _RefractionChromaticAberration
+          second: 0
+        data:
+          first:
+            name: _Wetness
+          second: 0
+        data:
+          first:
+            name: _WetnessShown
+          second: 1
+        data:
+          first:
+            name: _WetnessLevel
+          second: 1
+        data:
+          first:
+            name: _WetnessConst
+          second: 0
+        data:
+          first:
+            name: _WetnessDarkening
+          second: 2
+        data:
+          first:
+            name: _WetnessEmissiveness
+          second: 0
+        data:
+          first:
+            name: _WetnessNormalInfluence
+          second: .5
+        data:
+          first:
+            name: _WetnessUVMult
+          second: 1
+        data:
+          first:
+            name: _WetRipples
+          second: 0
+        data:
+          first:
+            name: _RippleStrength
+          second: .5
+        data:
+          first:
+            name: _RippleTiling
+          second: 1
+        data:
+          first:
+            name: _RippleSpecFilter
+          second: .0199999996
+        data:
+          first:
+            name: _RippleAnimSpeed
+          second: .5
+        data:
+          first:
+            name: _FlowCycleScale
+          second: 2
+        data:
+          first:
+            name: _RippleRefraction
+          second: .300000012
+        data:
+          first:
+            name: _WetnessNormMIP
+          second: 5
+        data:
+          first:
+            name: _WetnessNormStrength
+          second: 2
+        data:
+          first:
+            name: _WetnessEmissivenessWrap
+          second: 0
+        data:
+          first:
+            name: _WetnessLevelFromGlobal
+          second: 1
+        data:
+          first:
+            name: _WetnessConstFromGlobal
+          second: 1
+        data:
+          first:
+            name: _WetnessFlowGlobalTime
+          second: 1
+        data:
+          first:
+            name: _WetnessMergeWithSnowPerMaterial
+          second: 0
+        data:
+          first:
+            name: _RippleStrengthFromGlobal
+          second: 0
+        data:
+          first:
+            name: _RainIntensityFromGlobal
+          second: 0
+        data:
+          first:
+            name: _WetDroplets
+          second: 0
+        data:
+          first:
+            name: _RainIntensity
+          second: 1
+        data:
+          first:
+            name: _DropletsTiling
+          second: 1
+        data:
+          first:
+            name: _DropletsAnimSpeed
+          second: 10
+        data:
+          first:
+            name: _TessDepth
+          second: 0
+        data:
+          first:
+            name: _TessOffset
+          second: 1
+        data:
+          first:
+            name: _Tess
+          second: 5
+        data:
+          first:
+            name: _TessEdgeLengthLimit
+          second: 5
+        data:
+          first:
+            name: minDist
+          second: 1
+        data:
+          first:
+            name: maxDist
+          second: 10
+        data:
+          first:
+            name: _Phong
+          second: .400000006
+        data:
+          first:
+            name: _Snow
+          second: 0
+        data:
+          first:
+            name: _SnowShown
+          second: 1
+        data:
+          first:
+            name: _Frost
+          second: 0
+        data:
+          first:
+            name: _SnowSlopeDamp
+          second: 2
+        data:
+          first:
+            name: _SnowDiffuseScatteringExponent
+          second: 6
+        data:
+          first:
+            name: _SnowDiffuseScatteringOffset
+          second: .400000006
+        data:
+          first:
+            name: _SnowDeepSmoothen
+          second: 4
+        data:
+          first:
+            name: _SnowMicroTiling
+          second: 4
+        data:
+          first:
+            name: _SnowBumpMicro
+          second: .0799999982
+        data:
+          first:
+            name: _SnowMacroTiling
+          second: 1
+        data:
+          first:
+            name: _SnowBumpMacro
+          second: .100000001
+        data:
+          first:
+            name: _SnowWorldMapping
+          second: 0
+        data:
+          first:
+            name: _SnowDissolve
+          second: 2
+        data:
+          first:
+            name: _SnowDissolveMaskOcclusion
+          second: 0
+        data:
+          first:
+            name: _SnowHeightThreshold
+          second: -10000
+        data:
+          first:
+            name: _SnowHeightThresholdTransition
+          second: 1000
+        data:
+          first:
+            name: _SnowLevelFromGlobal
+          second: 1
+        data:
+          first:
+            name: _FrostFromGlobal
+          second: 1
+        data:
+          first:
+            name: _SnowBumpMicroFromGlobal
+          second: 1
+        data:
+          first:
+            name: _SnowDissolveFromGlobal
+          second: 1
+        data:
+          first:
+            name: _SnowSpecGlossFromGlobal
+          second: 1
+        data:
+          first:
+            name: _SnowGlitterColorFromGlobal
+          second: 0
+        data:
+          first:
+            name: _Glitter
+          second: 0
+        data:
+          first:
+            name: _GlitterShown
+          second: 1
+        data:
+          first:
+            name: _GlitterColorization
+          second: .200000003
+        data:
+          first:
+            name: _GlitterDensity
+          second: .200000003
+        data:
+          first:
+            name: _GlitterTiling
+          second: 1
+        data:
+          first:
+            name: _GlitterAnimationFrequency
+          second: .0199999996
+        data:
+          first:
+            name: _GlitterFilter
+          second: -1
+        data:
+          first:
+            name: _GlitterMask
+          second: 0
+        data:
+          first:
+            name: _MainShown
+          second: 1
+        data:
+          first:
+            name: _SecondaryShown
+          second: 1
+        data:
+          first:
+            name: _PresetsShown
+          second: 1
+      colors:
+        data:
+          first:
+            name: _EmissionColor
+          second: {r: 0, g: 0, b: 0, a: 0}
+        data:
+          first:
+            name: _Color
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _SpecColor
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _EmissionColorUI
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _Color2
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _CutoffEdgeGlow
+          second: {r: 0, g: 0, b: 0, a: .0199999996}
+        data:
+          first:
+            name: _SpecColor2
+          second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+        data:
+          first:
+            name: _DiffuseScatteringColor
+          second: {r: .41911763, g: .0493079536, b: .0493079536, a: 0}
+        data:
+          first:
+            name: _DiffuseScatteringColor2
+          second: {r: 0, g: 0, b: 0, a: 0}
+        data:
+          first:
+            name: _DetailColor
+          second: {r: 1, g: 1, b: 1, a: .453000009}
+        data:
+          first:
+            name: _DetailSpecGloss
+          second: {r: .375, g: .375, b: .375, a: 1}
+        data:
+          first:
+            name: _TranslucencyColor
+          second: {r: .845588207, g: .192744359, b: .192744359, a: 1}
+        data:
+          first:
+            name: _TranslucencyColor2
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _CurvatureMultOffset
+          second: {r: 0, g: 0, b: 0, a: 0}
+        data:
+          first:
+            name: _Tan2ObjectMultOffset
+          second: {r: 0, g: 0, b: 1, a: 1}
+        data:
+          first:
+            name: _UV_Clip_Borders
+          second: {r: 0, g: 0, b: 1, a: 1}
+        data:
+          first:
+            name: _WetnessColor
+          second: {r: 0, g: 0, b: 0, a: 0}
+        data:
+          first:
+            name: _WetnessSpecGloss
+          second: {r: .0500000007, g: .0500000007, b: .0500000007, a: .699999988}
+        data:
+          first:
+            name: _SnowColorAndCoverage
+          second: {r: 1, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _SnowSpecGloss
+          second: {r: .100000001, g: .100000001, b: .100000001, a: .150000006}
+        data:
+          first:
+            name: _SnowDiffuseScatteringColor
+          second: {r: 1, g: 1, b: 1, a: 0}
+        data:
+          first:
+            name: _SnowEmissionTransparency
+          second: {r: .100000001, g: .100000001, b: .100000001, a: 1}
+        data:
+          first:
+            name: _SnowTranslucencyColor
+          second: {r: .75, g: 1, b: 1, a: 1}
+        data:
+          first:
+            name: _SnowGlitterColor
+          second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+        data:
+          first:
+            name: _GlitterColor
+          second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+        data:
+          first:
+            name: _GlitterColor2
+          second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+        data:
+          first:
+            name: heightMapTexelSize
+          second: {r: .0009765625, g: .0009765625, b: 1024, a: 1024}
+        data:
+          first:
+            name: bumpMapTexelSize
+          second: {r: .0009765625, g: .0009765625, b: 1024, a: 1024}
+        data:
+          first:
+            name: bumpMap2TexelSize
+          second: {r: 1, g: 1, b: 1, a: 1}
+    textureParameters:
+    - name: Skin_Diffuse
+      alphaSource: 8
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Skin_Specular
+      alphaSource: 7
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Skin_Normal
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    - name: Skin_Height
+      alphaSource: 0
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp:
+        name: _MainTex
+      material: {instanceID: 0}
+      baseUID: 336517666
+    - shaderProp:
+        name: _BumpMap
+      material: {instanceID: 0}
+      baseUID: 336510978
+    - shaderProp:
+        name: _DetailNormalMap
+      material: {instanceID: 0}
+      baseUID: 336510978
+    - shaderProp:
+        name: _ParallaxMap
+      material: {instanceID: 0}
+      baseUID: 336511482
+    - shaderProp:
+        name: _DetailAlbedoMap
+      material: {instanceID: 0}
+      baseUID: 336517666
+    - shaderProp:
+        name: _SpecGlossMap
+      material: {instanceID: 0}
+      baseUID: 336512762
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 1024
+      textureHeight: 1024
+      textureFormat: 0
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
